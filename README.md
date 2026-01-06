@@ -197,34 +197,52 @@ graph TB
 ---
 
 ## 📂 Project Structure
-
 ```
-📦 Population-Census-Analytics
+📦 Population-Census-Demographic-Insights
 │
 ├── 🚀 airflow/                          # Workflow Orchestration
-│   ├── 📋 dags/
-│   │   └── census_databricks_etl.py    # Main pipeline orchestration
+│   ├── 📋 dags/                        # DAG definitions
+│   ├── 📝 logs/                        # Execution audit trail
+│   ├── 🔧 .env                         # Environment configuration
 │   ├── 🐳 docker-compose.yml           # Infrastructure definition
-│   └── 📝 logs/                        # Execution audit trail
+│   └── 📄 Dockerfile                   # Container image specification
 │
 ├── 📊 dataset/                          # Data Sources
 │   └── census_sample_5000_records.csv  # Sample census data
 │
 ├── ⚙️ etl_pipeline/                     # Data Processing Scripts
-│   ├── bronze_ingestion.py             # Layer 1: Raw ingestion
-│   ├── silver_transformation.py        # Layer 2: Cleansing
-│   └── gold_analytics.py               # Layer 3: Analytics
+│   ├── 🥉 bronze.sql                   # Layer 1: Raw ingestion
+│   ├── 🥈 silver.sql                   # Layer 2: Data cleansing
+│   └── 🥇 gold.sql                     # Layer 3: Analytics aggregation
 │
 ├── 📓 notebooks/                        # Development Notebooks
-│   ├── 01_bronze_ingestion.ipynb       # Bronze layer development
-│   ├── 02_silver_transformation.ipynb  # Silver layer development
-│   └── 03_gold_analytics.ipynb         # Gold layer development
+│   ├── 01_Bronze_Ingestion.ipynb       # Bronze layer development
+│   ├── 02_Silver_Transformation.ipynb  # Silver layer development
+│   └── 03_Gold_Analytics.ipynb         # Gold layer development
 │
-├── 📈 dashboard/                        # Business Intelligence
-│   └── census_analytics_dashboard.pbix # Power BI dashboard
+├── 📤 outputs/                          # Generated Artifacts
+│   ├── 🎯 airflow trigger outputs/     # Airflow execution results
+│   │   ├── airflow-DAG.png
+│   │   ├── airflow-docker-containers.png
+│   │   ├── airflow-etl-trigger-output.png
+│   │   └── census_etl_dag.png
+│   ├── 📊 dashboards/                  # Analytics visualizations
+│   │   ├── age_group_analytics.png
+│   │   ├── employment_insights.png
+│   │   ├── executive_overview.png
+│   │   ├── gender_demographics.png
+│   │   ├── image.png
+│   │   └── literacy_analysis.png
+│   ├── 🗄️ delta tables/                # Delta Lake outputs
+│   │   └── all-tables.png
+│   └── 💼 jobs/                        # Job execution snapshots
+│       ├── airflow-job-tasks.png
+│       ├── etl-pipeline.png
+│       ├── job-orchestration-runs.png
+│       ├── job-run-timeline.png
+│       └── orchestration-pipeline.png
 │
-├── 📤 output/                           # Analytics Preview
-│   └── gold_tables_preview/            # Sample outputs
+├── 📊 Population-Census-Demographic-Insights-Analytics-System.pbix  # Power BI Dashboard
 │
 └── 📖 README.md                         # Project documentation
 ```
@@ -572,7 +590,7 @@ docker compose up -d
 
 #### **Step 6: Explore Analytics**
 
-1. Open `dashboard/census_analytics_dashboard.pbix` in Power BI Desktop
+1. Open `Population-Census-Demographic-Insights-Analytics-System.pbix` in Power BI Desktop
 2. Update data source connection:
    - Server: Your Databricks SQL endpoint
    - Database: Your catalog/schema
