@@ -262,8 +262,8 @@ census_databricks_etl
 #### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Population-Census-Demographic-Analytics.git
-cd Population-Census-Demographic-Analytics
+git clone https://github.com/ksreejith16/Population-Census-Demographic-Insights-Analytics-System/.git
+cd Population-Census-Demographic-Insights-Analytics-System
 ```
 
 #### 2️⃣ Start Airflow
@@ -387,7 +387,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Sreejith**  
+**Sreejith Reddy**  
 *Capstone Project – Data Engineering & Analytics*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/yourprofile)
