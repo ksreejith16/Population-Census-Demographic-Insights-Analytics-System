@@ -1,0 +1,67 @@
+[2026-01-06T08:07:49.348+0000] {processor.py:161} INFO - Started process (PID=209) to work on /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:07:49.350+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/census_databricks_etl.py for tasks to queue
+[2026-01-06T08:07:49.351+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:07:49.351+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:07:49.381+0000] {processor.py:840} INFO - DAG(s) 'census_databricks_etl' retrieved from /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:07:49.590+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:07:49.590+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:census_databricks_etl
+[2026-01-06T08:07:49.602+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:07:49.602+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:census_databricks_etl
+[2026-01-06T08:07:49.610+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:07:49.609+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:census_databricks_etl
+[2026-01-06T08:07:49.611+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:07:49.611+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-06T08:07:49.625+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:07:49.625+0000] {dag.py:3058} INFO - Creating ORM DAG for census_databricks_etl
+[2026-01-06T08:07:49.627+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:07:49.627+0000] {dag.py:3823} INFO - Setting next_dagrun for census_databricks_etl to None, run_after=None
+[2026-01-06T08:07:49.654+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/census_databricks_etl.py took 0.309 seconds
+[2026-01-06T08:08:19.768+0000] {processor.py:161} INFO - Started process (PID=214) to work on /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:08:19.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/census_databricks_etl.py for tasks to queue
+[2026-01-06T08:08:19.772+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:08:19.772+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:08:19.821+0000] {processor.py:840} INFO - DAG(s) 'census_databricks_etl' retrieved from /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:08:19.896+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:08:19.895+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-06T08:08:19.909+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:08:19.908+0000] {dag.py:3823} INFO - Setting next_dagrun for census_databricks_etl to None, run_after=None
+[2026-01-06T08:08:19.934+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/census_databricks_etl.py took 0.174 seconds
+[2026-01-06T08:08:50.264+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:08:50.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/census_databricks_etl.py for tasks to queue
+[2026-01-06T08:08:50.267+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:08:50.267+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:08:50.301+0000] {processor.py:840} INFO - DAG(s) 'census_databricks_etl' retrieved from /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:08:50.387+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:08:50.386+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-06T08:08:50.400+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:08:50.400+0000] {dag.py:3823} INFO - Setting next_dagrun for census_databricks_etl to None, run_after=None
+[2026-01-06T08:08:50.428+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/census_databricks_etl.py took 0.168 seconds
+[2026-01-06T08:09:20.565+0000] {processor.py:161} INFO - Started process (PID=224) to work on /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:09:20.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/census_databricks_etl.py for tasks to queue
+[2026-01-06T08:09:20.567+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:09:20.567+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:09:20.600+0000] {processor.py:840} INFO - DAG(s) 'census_databricks_etl' retrieved from /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:09:20.670+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:09:20.669+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-06T08:09:20.683+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:09:20.683+0000] {dag.py:3823} INFO - Setting next_dagrun for census_databricks_etl to None, run_after=None
+[2026-01-06T08:09:20.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/census_databricks_etl.py took 0.145 seconds
+[2026-01-06T08:09:50.838+0000] {processor.py:161} INFO - Started process (PID=229) to work on /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:09:50.839+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/census_databricks_etl.py for tasks to queue
+[2026-01-06T08:09:50.840+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:09:50.840+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:09:50.860+0000] {processor.py:840} INFO - DAG(s) 'census_databricks_etl' retrieved from /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:09:50.909+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:09:50.908+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-06T08:09:50.929+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:09:50.928+0000] {dag.py:3823} INFO - Setting next_dagrun for census_databricks_etl to None, run_after=None
+[2026-01-06T08:09:50.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/census_databricks_etl.py took 0.114 seconds
+[2026-01-06T08:10:21.151+0000] {processor.py:161} INFO - Started process (PID=234) to work on /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:10:21.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/census_databricks_etl.py for tasks to queue
+[2026-01-06T08:10:21.154+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:10:21.153+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:10:21.175+0000] {processor.py:840} INFO - DAG(s) 'census_databricks_etl' retrieved from /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:10:21.224+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:10:21.223+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-06T08:10:21.238+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:10:21.237+0000] {dag.py:3823} INFO - Setting next_dagrun for census_databricks_etl to None, run_after=None
+[2026-01-06T08:10:21.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/census_databricks_etl.py took 0.124 seconds
+[2026-01-06T08:10:51.565+0000] {processor.py:161} INFO - Started process (PID=239) to work on /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:10:51.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/census_databricks_etl.py for tasks to queue
+[2026-01-06T08:10:51.569+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:10:51.569+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:10:51.603+0000] {processor.py:840} INFO - DAG(s) 'census_databricks_etl' retrieved from /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:10:51.674+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:10:51.674+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-06T08:10:51.692+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:10:51.692+0000] {dag.py:3823} INFO - Setting next_dagrun for census_databricks_etl to None, run_after=None
+[2026-01-06T08:10:51.717+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/census_databricks_etl.py took 0.158 seconds
+[2026-01-06T08:11:21.873+0000] {processor.py:161} INFO - Started process (PID=244) to work on /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:11:21.875+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/census_databricks_etl.py for tasks to queue
+[2026-01-06T08:11:21.878+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:11:21.877+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:11:21.913+0000] {processor.py:840} INFO - DAG(s) 'census_databricks_etl' retrieved from /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:11:21.987+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:11:21.987+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-06T08:11:22.003+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:11:22.003+0000] {dag.py:3823} INFO - Setting next_dagrun for census_databricks_etl to None, run_after=None
+[2026-01-06T08:11:22.029+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/census_databricks_etl.py took 0.162 seconds
+[2026-01-06T08:11:52.341+0000] {processor.py:161} INFO - Started process (PID=253) to work on /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:11:52.343+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/census_databricks_etl.py for tasks to queue
+[2026-01-06T08:11:52.344+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:11:52.343+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:11:52.366+0000] {processor.py:840} INFO - DAG(s) 'census_databricks_etl' retrieved from /opt/airflow/dags/census_databricks_etl.py
+[2026-01-06T08:11:52.426+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:11:52.426+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-06T08:11:52.449+0000] {logging_mixin.py:188} INFO - [2026-01-06T08:11:52.449+0000] {dag.py:3823} INFO - Setting next_dagrun for census_databricks_etl to None, run_after=None
+[2026-01-06T08:11:52.484+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/census_databricks_etl.py took 0.146 seconds
